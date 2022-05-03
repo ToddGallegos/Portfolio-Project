@@ -84,4 +84,8 @@ li.projs {
     width: auto;
     padding: 10px;
   }
+
+  .disappear {
+    display: none;
+  }
 }
