@@ -11,10 +11,10 @@
       <h1>Todd Gallegos</h1>
       <nav>
         <ul>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Skills</li>
-          <li>Contact</li>
+          <a href="#aboutme"><li>About Me</li></a>
+          <a href="#projects"><li>Projects</li></a>
+          <a href="#skills"><li>Skills</li></a>
+          <a href="contact.html"><li>Contact</li></a>
         </ul>
       </nav>
     </header>
@@ -42,53 +42,35 @@
           <figcaption>Todd Gallegos</figcaption>
         </figure>
       </div>
-      <h2>Projects</h2>
+      <h2 id="projects">Projects</h2>
       <ul>
-        <li>DNA Mutation and Survival Simulation</li>
+        <li class="projs" id="proj1">DNA Mutation and Survival Simulation</li>
         <figure>
-          <img class="screenshots" src="DNAmutationSimulation.png" />
+          <img id='screenshot1' class="screenshots" src="DNAmutationSimulation.png" />
           <figcaption class="screenshots">Program Screenshot</figcaption>
         </figure>
-        <li>Lodash JS Object and String Manipulation</li>
+        <li class="projs"  id="proj2">Lodash JS Object and String Manipulation</li>
         <figure>
-          <img class="screenshots" src="lodashProgram.png" />
+          <img id='screenshot2' class="screenshots" src="lodashProgram.png" />
           <figcaption class="screenshots">Program Screenshot</figcaption>
         </figure>
-        <li>Automated Restaurant Menu Ordering System</li>
+        <li class="projs" id="proj3">Automated Restaurant Menu Ordering System</li>
         <figure>
-          <img class="screenshots" src="menuProgram.png" />
+          <img id='screenshot3' class="screenshots" src="menuProgram.png" />
           <figcaption class="screenshots">Program Screenshot</figcaption>
         </figure>
       </ul>
-      <h2>Skills</h2>
+      <h2 id="skills">Skills</h2>
       <div id="skillpics">
-        <img
-          src="https://e7.pngegg.com/pngimages/913/851/png-clipart-responsive-web-design-html-world-wide-web-consortium-world-wide-web-angle-text.png"
-          alt="HTML5"
-        />
-        <img
-          src="https://e7.pngegg.com/pngimages/188/673/png-clipart-cascading-style-sheets-css3-bootstrap-valid-blue-angle.png"
-          alt="CSS3"
-        />
-        <img
-          src="https://pngset.com/images/library-of-javascript-icon-graphic-freeuse-files-logo-logo-javascript-icon-in-number-symbol-text-first-aid-transparent-png-1497709.png"
-          alt="JavaScript"
-        />
-        <img
-          src="https://pngset.com/images/python-logo-images-logo-background-python-programming-language-text-cross-symbol-number-transparent-png-1249596.png"
-          alt="Python"
-        />
-        <img
-          src="https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png"
-          alt="git"
-        />
-        <img
-          src="https://pngset.com/images/new-go-logo-issue-257-pkiefvscode-materialicontheme-golang-logo-svg-text-symbol-trademark-alphabet-transparent-png-2986450.png"
-          alt="GoLang"
-        />
+        <img src="htmlcssjs.png" alt="html, css, js logos" />
+        <img src="python.png" alt="Python" />
+        <img src="github.png" alt="git" />
+        <img src="golang.png" alt="GoLang" />
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <p>Copyright 2022 Todd Gallegos</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
